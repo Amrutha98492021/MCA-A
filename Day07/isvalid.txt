@@ -1,0 +1,39 @@
+function isValid(){
+var a=document.getElementById("facName").value;
+/*
+var b = document.getElementById("facDep").value;
+tempb=validateName(b);
+var c= document.getElementById("facSub").value;
+tempc=validateName(c);
+var d= document.getElementById("facAge").value;
+tempd=validateName(d);
+var e= document.getElementById("facPlace").value;
+tempe=validateName(e);
+if(validateName(a)&&validateDept(b)){return true}
+if(validateName(a)
+else
+{return false}
+//if(a==""|| a==null)
+//if(a==""|| b==null)
+//if(a==""|| c==null)
+//if(a==""|| d==null)
+//else
+//{return true;}
+}
+funcation validateName(a)
+{
+const namePattern=/^[a-zA-Z\s']+$/;
+return namePattern.test(a);
+}
+funcation validateDep(b)
+{
+const depart=/^[a-z]+$/;
+return depart.test(b)
+
+
+
+
+
+
+
+}
